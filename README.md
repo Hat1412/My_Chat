@@ -15,5 +15,7 @@ nltk.download("stopwords")
 To make your own chatbot change information in chatbot_rec in the format:
 
 [ <br>
-[Query | another similar Query],[response for the query,another response for the query]
+[Query | another similar Query],
+<br>
+[response for the query,another response for the query]
 <br> ]
