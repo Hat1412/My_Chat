@@ -13,10 +13,7 @@ inex = 0
 
 chat = Chat(pairs, reflections)
 
-scrollbar = Scrollbar(root)
-scrollbar.pack(side=RIGHT, fill=Y)
-
-l = Listbox(root, font=uni_font, yscrollcommand=scrollbar.set, bg="#880115", fg="white")
+l = Listbox(root, font=uni_font,bg="#880115", fg="white")
 l.pack(side="top", fill=BOTH, expand=1, padx=20, pady=20)
 
 def res(t):
