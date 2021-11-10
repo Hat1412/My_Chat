@@ -1,6 +1,15 @@
 # My_Chat
 A chatbot made using python library nltk 
 
+TO use this program:
+```
+run the following commands in cmd
+pip install nltk
+python
+import nltk
+nltk.download("stopwords")
+
+```
 To make your own chatbot change information in chatbot_rec in the format:
 
 [
