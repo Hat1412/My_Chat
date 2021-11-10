@@ -3,7 +3,7 @@ A chatbot made using python library nltk
 
 TO use this program:
 
-<strong> run the following commands in cmd </strong>
+<strong> <h1> Run the following commands in cmd </h1> </strong>
 
 ```
 pip install nltk
