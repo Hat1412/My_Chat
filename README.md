@@ -2,8 +2,10 @@
 A chatbot made using python library nltk 
 
 TO use this program:
+
+<strong> run the following commands in cmd </strong>
+
 ```
-run the following commands in cmd
 pip install nltk
 python
 import nltk
