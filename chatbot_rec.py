@@ -1,3 +1,13 @@
+"""
+You are free to download and edit the code according to your wish 
+To edit the data:
+[ "Your Query",
+["List of Responses"]
+],
+"""
+
+
+
 pairs = [
     [
         r"my name is (.*)",
