@@ -10,16 +10,19 @@ To download the files:
   git clone https://github.com/Hat1412/My_Chat.git
   cd My_Chat
   ```
-
-```
-pip install nltk
-python
-import nltk
-nltk.download("stopwords")
-quit()
-main.py
-
-```
+To run file:
+  ```
+  main.py
+  ```
+  
+ Debug any errors:
+  ```
+  pip install nltk
+  python
+  import nltk
+  nltk.download("stopwords")
+  ```
+  
 To make your own chatbot change information in chatbot_rec in the format:
 
 [ <br>
