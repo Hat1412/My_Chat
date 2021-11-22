@@ -29,5 +29,5 @@ To run file:
 
 Contact me at:
 
-Discord: Hat1412#9817 </br>
-Reddit: u/Hat1412
+Discord: <strong> Hat1412#9817 </strong> </br>
+Reddit: <strong> u/Hat1412 </strong>
