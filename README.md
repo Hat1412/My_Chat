@@ -1,5 +1,5 @@
 # My_Chat
-A chatbot made using python library nltk 
+A chatbot made using Python
 
 To use this program:
 
@@ -25,9 +25,9 @@ To run file:
   import nltk
   nltk.download("stopwords")
   ```
-
-
-Contact me at:
-
-Discord: <strong> Hat1412#9817 </strong> </br>
-Reddit: <strong> u/Hat1412 </strong>
+  
+<h4>
+Contact me at: </br>
+    Discord: <strong> Hat1412#9817 </strong> </br>
+    Reddit: <strong> u/Hat1412 </strong>
+</h4>
