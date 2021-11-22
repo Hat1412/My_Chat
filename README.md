@@ -26,8 +26,8 @@ To run file:
   nltk.download("stopwords")
   ```
   
-<h4>
+<pre>
 Contact me at: </br>
     Discord: <strong> Hat1412#9817 </strong> </br>
     Reddit: <strong> u/Hat1412 </strong>
-</h4>
+</pre>
