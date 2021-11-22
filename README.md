@@ -25,3 +25,9 @@ To run file:
   import nltk
   nltk.download("stopwords")
   ```
+
+
+Contact me at:
+
+Discord: Hat1412#9817
+Reddit: u/Hat1412
