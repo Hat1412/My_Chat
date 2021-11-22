@@ -5,9 +5,13 @@ To use this program:
 
 <strong> <h1> Run the following commands in cmd </h1> </strong>
 
+To download the files:
+  ```
+  git clone https://github.com/Hat1412/My_Chat.git
+  cd My_Chat
+  ```
+
 ```
-git clone 
-cd 
 pip install nltk
 python
 import nltk
