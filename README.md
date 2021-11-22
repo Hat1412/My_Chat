@@ -12,7 +12,10 @@ To download the files:
   ```
 To run file:
   ```
-  main.py
+  #In windows:
+  python main.py
+  #In Linux/MacOS
+  python3 main.py
   ```
   
  Debug any errors:
