@@ -35,7 +35,7 @@ pairs = [
         ["Great to hear that, How can I help you?",]
     ],
     [
-        r"I am sad |I am angry |I am ok |I am depressed |I am not well |I dont feel so good",
+        r"I am sad |I am angry |I am depressed |I am not well |I dont feel so good",
         ["Oh I'm sorry Let me help you",]
     ],
     [
@@ -58,11 +58,6 @@ pairs = [
     [
         r"(.*) (sports|game) ?",
         ["I'm a very big fan of Cricket and Badminton",]
-    ],
-
-    [
-        r"i am looking for online guides and courses to learn data science, can you suggest?",
-        ["Crazy_Tech has many great articles with each step explanation along with code, you can explore"]
     ],
     [
         r"quit",
