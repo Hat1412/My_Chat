@@ -1,6 +1,6 @@
 from tkinter import *
 from chatbot_rec import pairs
-import subprocess
+import webbrowser
 from nltk.chat.util import Chat, reflections
 from nltk.corpus import stopwords
 
@@ -33,9 +33,10 @@ def res(t):
     else:
         anw = chat.respond(f"{t}".lower())
         if anw == None:
-            subprocess.Popen([r'C:\Program Files\Google\Chrome\Application\chrome.exe', f"{t}".lower()]).wait()
-            return ""
-
+            sq = t.lower().replace(" ","%20")
+            url = f"https://www.google.com.tr/search?q={sq}"
+            webbrowser.open_new_tab(url)
+            return url
         else:
             return anw
 
@@ -52,9 +53,7 @@ inex += 1
 
 e = Entry(root, width=60, font=uni_font, textvariable=user_input, background="#3F48CC")
 e.pack(side="left", expand=1, padx=20, pady=20)
-Button(
-    root, text="Send", width=10, font=uni_font, command=lambda: send(""), bg="#ED1C24"
-).pack(side="left", expand=1, padx=20, pady=20)
+Button(root, text="Send", width=10, font=uni_font, command=lambda: send(""), bg="#ED1C24").pack(side="left", expand=1, padx=20, pady=20)
 
 root.bind("<Return>", send)
 e.bind("<Button-1>", lambda x: user_input.set(""))
