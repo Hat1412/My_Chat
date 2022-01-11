@@ -20,9 +20,10 @@ def res(t):
     global user_input
 
     user_input.set("")
-
-    for sym in ["+","-","*","/","%"]:
-        anw = f"{t}".lower()
+    anw = f"{t}".lower()
+    if "help" in anw:
+        webbrowser.open_new_tab("https://github.com/Hat1412/My_Chat")
+    for sym in ["+","-","*","/","%"]:    
         if sym in anw:
             unwanted = list(stopwords.words('english'))
             unwanted.extend([" ","="])
